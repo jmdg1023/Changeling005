@@ -12,7 +12,7 @@ function colorCoding (){
     $('textarea').each(function(){
    //get scheduled hour and current hour
    var ColorHour=parseInt($(this).attr('id'));
-        console.log('Scheduled hour: ', ColorHour ,"currentHour", currentHour) // shows all the ids converted to integers
+        //console.log('Scheduled hour: ', ColorHour ,"currentHour", currentHour)
     //change color depending on time
         if (ColorHour===currentHour){
         $(this).addClass('present');
