@@ -1,6 +1,10 @@
 # Changeling005
 
 
+## Learning Resources
+* https://www.youtube.com/watch?v=q93hR316nk4
+
+## What this project does
 
 
 GIVEN I am using a daily planner to create a schedule
