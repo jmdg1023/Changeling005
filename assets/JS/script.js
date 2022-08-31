@@ -4,7 +4,7 @@ $("#currentDate").text(currentDate);
 
 var systemLog;
 var date = new Date();
-
+var textArea = document.getElementById('notes')
 var currentHour= date.getHours();
 console.log("present hr:", currentHour)
 
@@ -26,3 +26,18 @@ function colorCoding (){
     });
     }; 
     colorCoding()
+
+    
+$('.btn').click(function (event){
+
+    event.preventDefault();
+    localStorage.setItem('textArea',textArea.value);
+    textArea = localStorage.getItem("systemLog")
+    console.log(textArea, localStorage)
+    
+    
+    });
+
+    
+    
+    
