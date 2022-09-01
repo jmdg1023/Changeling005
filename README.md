@@ -19,7 +19,7 @@ Changeling - A word of play for 'Challenging'
 ## What this project does 💡💡💡
 
 ![IMAGE_DESCRIPTION](./assets/images/scheduler%20at%204pm.jpg)
-
+<br>
 
 1. Project is used as adaily planner to note schedule and appointments during working hours 9am to 5pm. The current day will be displayed at the top of the calendar upon reaching the site.
 ![IMAGE_DESCRIPTION](./assets/images/Workday%20scheduler.jpg)
@@ -33,9 +33,10 @@ Changeling - A word of play for 'Challenging'
 ![IMAGE_DESCRIPTION](./assets/images/color%20coding.jpg)
 
 
-4. Click into a time block ro enter an event
+4. Click into any time block to enter an event.
+![IMAGE_DESCRIPTION](./assets/images/enter%20event.jpg)
 
+5. click on the save button for that time block to save that event is saved in local storage.
+![IMAGE_DESCRIPTION](./assets/images/save.jpg)
 
-5. click on the save button for that time block to save that event is saved in local storage
-6.  I refresh the page
-THEN the saved events persist
+6.  When page is refresh the changes should persist.

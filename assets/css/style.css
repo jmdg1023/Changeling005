@@ -11,6 +11,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px; 
+
 }
 
 .jumbotron {
@@ -70,10 +71,5 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-/* h3{
-  border-radius: 30px; 
-  margin-top: 20PX; 
-  margin-right: 10PX;
-  
-} */
+
 
